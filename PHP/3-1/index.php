@@ -1,6 +1,6 @@
 <?php 
 
-  for ($sum=1; $sum<100; $sum++) {
+  for ($sum=1; $sum <= 100; $sum++) {
     if ($sum%3 === 0 && $sum%5 === 0) {
       echo "FizzBuzz!!";
       echo '<br>';
